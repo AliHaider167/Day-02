@@ -26,3 +26,6 @@ jobs:
       - name: Lint python code with flake8
         run: |
           flake8
+
+      - name: Simulate Deployment to Staging
+        run: echo "Code Deployed to Staging Environment."
