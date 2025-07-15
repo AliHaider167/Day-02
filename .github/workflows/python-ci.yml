@@ -22,3 +22,7 @@ jobs:
       - name: Run Tests
         run: |
           pytest
+
+      - name: Lint python code with flake8
+        run: |
+          flake8
